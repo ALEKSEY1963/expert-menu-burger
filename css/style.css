@@ -28,7 +28,7 @@ body {
 }
 
 .header {
-  box-shadow: 0px 4px 21px -1px rgba(34, 60, 80, 0.13);
+  box-shadow: 0px 4px 21px -1px rgba(34, 60, 80, 0.19);
 }
 
 .header__container {
@@ -55,7 +55,7 @@ body {
   height: 3px;
   background-color: black;
   left: 5px;
-  transition: transform 0.9s, opacity 0.9s, background-color 0.9s;
+  transition: transform 0.8s, opacity 0.8s, background-color 0.8s;
 }
 
 .header__burger-btn span:nth-child(1) {
@@ -67,7 +67,7 @@ body {
 }
 
 .header.open .header__burger-btn span {
-background-color: white;
+background-color: rgb(238, 234, 234);
 }
 
 .header.open .header__burger-btn span:nth-child(1) {
@@ -115,16 +115,16 @@ transform: translateY(0) rotate(-45deg);
     left:-300px ;
     top: 0;
     width: 300px;
-    background-color: blueviolet;
+    background-color: rgb(147, 54, 235);
     padding: 75px 20px 20px 20px;
-    transition: transform .9s;
+    transition: transform .8s;
   }
   .menu__list {
     display: block;
   }
   .menu__link {
     color: white;
-    font-size: 21px;
+    font-size: 20px;
     display: block;
     padding: 10px 0;
   }
